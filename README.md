@@ -26,7 +26,7 @@ back to back to see all the possible variations of success/failure cases:
 1. Failed network call.
 2. Failed network call, failed validation.
 3. Successful network call, failed validation.
-4. Successful network call, silently failed validation.
+4. Successful network call, silently failed validation (promise version only).
 5. Successful network call, successful validation.
 
 The script aims to demonstrate that error handling in Promises are opt-in (by
@@ -41,6 +41,8 @@ to continue running in a possibly bad state.
 To test the callback version, `npm run st-cb`
 
 To test the promise version, `npm run st-promise`
+
+To test the observable version, `TODO`
 
 
 
