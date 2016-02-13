@@ -20,7 +20,7 @@ function programmerError() {
 asyncVal().then(programmerError)
             .catch(function(e) {
                 // handled the error!
-                // now do something bad and blow up some more
-                var x = y + 1;
+                // now decide we can't handle the error, so rethrow!
+                throw new Error('can\'t handle this error!');
             });
 

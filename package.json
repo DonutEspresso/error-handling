@@ -4,14 +4,12 @@
   "description": "a test suite for how async abstractions deal with expected and unexpected errors",
   "main": "test/index.js",
   "devDependencies": {
-    "bluebird": "^2.9.34",
     "bunyan": "^1.4.0",
     "chai": "^3.2.0",
     "chai-as-promised": "^5.1.0",
     "eslint": "^1.2.1",
     "jscs": "^2.1.0",
     "mocha": "^2.2.5",
-    "promise": "^7.0.4",
     "rx": "^3.1.1",
     "vasync": "^1.6.3",
     "verror": "^1.6.0"
@@ -38,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/DonutEspresso/error-handling/issues"
   },
-  "homepage": "https://github.com/DonutEspresso/error-handling#readme"
+  "homepage": "https://github.com/DonutEspresso/error-handling#readme",
+  "dependencies": {
+    "bunyan": "^1.6.0"
+  }
 }
